@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Groupers', 'Seabass', 'Tilapia']
+
+roboflow:
+  workspace: psm-7y0po
+  project: version-3-object-detection-2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/psm-7y0po/version-3-object-detection-2/dataset/1

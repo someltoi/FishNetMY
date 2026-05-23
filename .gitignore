@@ -1,0 +1,49 @@
+# Python environment
+/.venv/
+
+# Notebooks & Scripts
+/EfficientDet_D1.ipynb
+/Faster_R_CNN.ipynb
+/Faster_R_CNN_script 51.ipynb
+/Faster_R_CNN_script.py
+/Mask_R_CNN.ipynb
+/Qwen_python_20260504_lk31hen7g.py
+/efficientdet_training.py
+/faster_rcnn_training.py
+/mask_rcnn_training.py
+/test.py
+/EfficientDet_D1.ipynb:Zone.Identifier/
+
+# Outputs, Checkpoints & Logs (directories)
+/Training_checkpoints/
+/results/
+/runs/
+/models/
+
+# Model Weights
+/yolo11m.pt
+/yolo11n.pt
+
+# Documentation
+/plan.md
+
+# COCO Datasets
+/Dataset/COCO/Fish Mask R CNN.v2i.coco/
+/Dataset/COCO/Fish Mask R CNN.v3-version-2.coco/
+/Dataset/COCO/Malaysia Fish Object Detection.v5-hopefully-more-balanced.coco/
+/Dataset/COCO/masking v1.v1-instance-segmentation-1.coco/
+/Dataset/COCO/version 1/
+/Dataset/COCO/version 2/
+/Dataset/COCO/version_3/
+/Dataset/COCO/version_4/
+/Dataset/COCO/version_5/
+/Dataset/COCO/version2.v6-without-tilapia.coco/
+/Dataset/COCO/version2.v7-yolo-version-6--rcnn-version-5-augmented.coco/
+/Dataset/COCO/Version 3 Object Detection.v1-object-detection-1.coco/
+
+# YOLO Datasets
+/Dataset/YOLO/version_2/
+/Dataset/YOLO/version_3/
+/Dataset/YOLO/version_4/
+/Dataset/YOLO/version_5/
+/Dataset/YOLO/version_6/
