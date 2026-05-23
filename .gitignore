@@ -12,13 +12,14 @@
 /faster_rcnn_training.py
 /mask_rcnn_training.py
 /test.py
-/EfficientDet_D1.ipynb:Zone.Identifier/
+
 
 # Outputs, Checkpoints & Logs (directories)
 /Training_checkpoints/
 /results/
 /runs/
 /models/
+/__pycache__/
 
 # Model Weights
 /yolo11m.pt
