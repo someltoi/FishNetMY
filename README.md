@@ -105,8 +105,7 @@ F1-Curve Graph for a) YOLOv11, b) Faster R-CNN, c) Mask R-CNN
 
 **Confusion Matrix** results showed YOLOv11 achieved per-class accuracy of **0.98 for Seabass**, **0.97 for Tilapia**, and **0.94 for Grouper**, with a low false positive rate against background.
 
-<img width="854" height="254" alt="image" src="https://github.com/user-attachments/assets/59e4306a-1dbd-4dd6-9ee1-166815f5d742" />
-
+<img width="854" height="420" alt="image" src="https://github.com/user-attachments/assets/79d17261-9691-4d4b-8db0-bcf0f056460a" />
 
 **Inference Samples** demonstrated strong detection across varied lighting, turbidity, and fish orientation. The primary failure cases observed were heavily occluded fish and extreme non-standard poses.
 
