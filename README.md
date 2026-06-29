@@ -79,10 +79,10 @@ All three architectures demonstrated stable convergence with no significant over
 - **YOLOv11** trained over 300 epochs, with localization loss stabilizing around epoch 200 and mAP plateauing after epoch 150.
 - **Faster R-CNN** (80 epochs) and **Mask R-CNN** (70 epochs) converged much faster, with loss values plateauing within the first 20–40 epochs — typical of two-stage detectors.
 
-Loss Curve Graph for a) YOLOv11, b) Faster R-CNN, c) Mask R-CNN
+#### Loss Curve Graph for a) YOLOv11, b) Faster R-CNN, c) Mask R-CNN
 <img width="586" height="216" alt="image" src="https://github.com/user-attachments/assets/7fad767e-38e7-4c7a-980c-473b5e506ebb" />
 
-The figure below shows only YOLOv11 mAP@50 and mAP@50-95 curve graphs
+#### YOLOv11 mAP@50 and mAP@50-95 curve graphs
 <img width="634" height="306" alt="image" src="https://github.com/user-attachments/assets/585e57ec-9dea-4077-a50f-cc02e196e2cd" />
 
 ---
