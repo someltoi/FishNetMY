@@ -110,9 +110,11 @@ F1-Curve Graph for a) YOLOv11, b) Faster R-CNN, c) Mask R-CNN
 **Inference Samples** demonstrated strong detection across varied lighting, turbidity, and fish orientation. The primary failure cases observed were heavily occluded fish and extreme non-standard poses.
 
 Success Cases of Inference
+
 <img width="854" height="575" alt="image" src="https://github.com/user-attachments/assets/6ff75895-94a4-4a29-86cb-e4e6244d1ca0" />
 
 Failure Case of Inference
+
 <img width="424" height="423" alt="image" src="https://github.com/user-attachments/assets/8cd4a519-ae12-4907-90f1-3f8062d959bf" />
 
 
