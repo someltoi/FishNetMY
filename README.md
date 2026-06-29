@@ -77,11 +77,11 @@ All three architectures demonstrated stable convergence with no significant over
 - **YOLOv11** trained over 300 epochs, with localization loss stabilizing around epoch 200 and mAP plateauing after epoch 150.
 - **Faster R-CNN** (80 epochs) and **Mask R-CNN** (70 epochs) converged much faster, with loss values plateauing within the first 20–40 epochs — typical of two-stage detectors.
 
-<img width="854" height="278" alt="image" src="https://github.com/user-attachments/assets/ce086acb-453b-425c-832f-7c4eeb511913" />
+Loss Curve Graph for a) YOLOv11, b) Faster R-CNN, c) Mask R-CNN
+<img width="586" height="216" alt="image" src="https://github.com/user-attachments/assets/7fad767e-38e7-4c7a-980c-473b5e506ebb" />
 
-
+The figure below shows only YOLOv11 mAP@50 and mAP@50-95 curve graphs
 <img width="634" height="306" alt="image" src="https://github.com/user-attachments/assets/585e57ec-9dea-4077-a50f-cc02e196e2cd" />
-
 
 ---
 
@@ -95,12 +95,13 @@ All three architectures demonstrated stable convergence with no significant over
 
 **YOLOv11** achieved the highest Precision (96.17%), mAP@0.5 (98.26%), and strict mAP@0.5-0.95 (90.68%), making it the clear winner for deployment. Faster R-CNN recorded competitive recall but the weakest bounding box regression under strict IoU. Mask R-CNN achieved the highest recall but traded off precision with a higher false positive rate.
 
-<img width="854" height="254" alt="image" src="https://github.com/user-attachments/assets/34e2a296-c0ea-4898-b951-510db8d99931" />
+F1-Curve Graph for a) YOLOv11, b) Faster R-CNN, c) Mask R-CNN
+<img width="584" height="202" alt="image" src="https://github.com/user-attachments/assets/72d0e4a2-8fb2-4599-b937-91e53108287c" />
 
 
 ---
 
-### Qualitative Analysis
+### Qualitative Analysis (YOLOv11 only)
 
 **Confusion Matrix** results showed YOLOv11 achieved per-class accuracy of **0.98 for Seabass**, **0.97 for Tilapia**, and **0.94 for Grouper**, with a low false positive rate against background.
 
