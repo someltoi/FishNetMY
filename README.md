@@ -65,6 +65,8 @@ A total of **1,800 raw images** were collected across three classes (600 per spe
 | Seabass | 600       | 1,440                    | 60               | 60         |
 | **Total** | **1,800** | **4,320**              | **180**          | **180**    |
 
+#### Labelled/Annotated Sample of Augmented and Preprocessed Image 
+
 <img width="720" height="433" alt="image" src="https://github.com/user-attachments/assets/c3dd9396-5f08-45c8-bc3a-f7e043681e71" />
 
 
@@ -95,7 +97,7 @@ The figure below shows only YOLOv11 mAP@50 and mAP@50-95 curve graphs
 
 **YOLOv11** achieved the highest Precision (96.17%), mAP@0.5 (98.26%), and strict mAP@0.5-0.95 (90.68%), making it the clear winner for deployment. Faster R-CNN recorded competitive recall but the weakest bounding box regression under strict IoU. Mask R-CNN achieved the highest recall but traded off precision with a higher false positive rate.
 
-F1-Curve Graph for a) YOLOv11, b) Faster R-CNN, c) Mask R-CNN
+#### F1-Curve Graph for a) YOLOv11, b) Faster R-CNN, c) Mask R-CNN
 <img width="584" height="202" alt="image" src="https://github.com/user-attachments/assets/72d0e4a2-8fb2-4599-b937-91e53108287c" />
 
 
@@ -109,11 +111,11 @@ F1-Curve Graph for a) YOLOv11, b) Faster R-CNN, c) Mask R-CNN
 
 **Inference Samples** demonstrated strong detection across varied lighting, turbidity, and fish orientation. The primary failure cases observed were heavily occluded fish and extreme non-standard poses.
 
-Success Cases of Inference
+#### Success Cases of Inference
 
 <img width="854" height="575" alt="image" src="https://github.com/user-attachments/assets/6ff75895-94a4-4a29-86cb-e4e6244d1ca0" />
 
-Failure Case of Inference
+#### Failure Case of Inference
 
 <img width="424" height="423" alt="image" src="https://github.com/user-attachments/assets/8cd4a519-ae12-4907-90f1-3f8062d959bf" />
 
