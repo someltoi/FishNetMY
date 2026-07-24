@@ -68,3 +68,4 @@ python app_v5.py
 - Confidence threshold sliders (0.0 to 1.0) control how strict detection is. Lower values catch more objects but increase false positives.
 - Saved images and videos keep the original filename with an `_inferred` suffix or a save dialog prompt, depending on the mode.
 - Class configuration (names and colors) is saved per model, so switching models automatically applies the right labels.
+- [Demo Video](https://youtu.be/SUBtskzbZbc)
